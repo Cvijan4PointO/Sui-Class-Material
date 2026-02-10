@@ -11,10 +11,13 @@ A Sui package with frontend integration built during classes.
 
 ```bash
 # Navigate to package directory
-cd sui-move-package
+cd package
 
 # Build the Move package
 sui move build
+
+# Test the Move package
+sui move test
 
 # Publish to testnet
 sui client publish --gas-budget 100000000
